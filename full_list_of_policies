@@ -1,0 +1,94 @@
+List of Organization policies	
+
+
+Allow extending lifetime of OAuth 2.0 access tokens to up to 12 hours		constraints/iam.allowServiceAccountCredentialLifetimeExtension	Inherited
+Allowed AWS accounts that can be configured for workload identity federation in Cloud IAM		constraints/iam.workloadIdentityPoolAwsAccounts	Inherited
+Allowed Binary Authorization Policies (Cloud Run)		constraints/run.allowedBinaryAuthorizationPolicies	Inherited
+Allowed Destinations for Exporting Resources		constraints/resourcemanager.allowedExportDestinations	Inherited
+Allowed external Identity Providers for workloads in Cloud IAM		constraints/iam.workloadIdentityPoolProviders	Inherited
+Allowed ingress settings (Cloud Functions)		constraints/cloudfunctions.allowedIngressSettings	Inherited
+Allowed ingress settings (Cloud Run)		constraints/run.allowedIngress	Inherited
+Allowed Integrations (Cloud Build)		constraints/cloudbuild.allowedIntegrations	Inherited
+Allowed Sources for Importing Resources		constraints/resourcemanager.allowedImportSources	Inherited
+Allowed target types for jobs		constraints/cloudscheduler.allowedTargetTypes	Inherited
+Allowed VPC Connector egress settings (Cloud Functions)		constraints/cloudfunctions.allowedVpcConnectorEgressSettings	Inherited
+Allowed VPC egress settings (Cloud Run)		constraints/run.allowedVPCEgress	Inherited
+Allowed VPC Service Controls mode for Anthos Service Mesh Managed Control Planes		constraints/meshconfig.allowedVpcscModes	Inherited
+Allowed Worker Pools (Cloud Build)		constraints/cloudbuild.allowedWorkerPools	Inherited
+Cloud Storage - restrict authentication types		constraints/storage.restrictAuthTypes	Inherited
+Compute Storage resource use restrictions (Compute Engine disks, images, and snapshots)		constraints/compute.storageResourceUseRestrictions	Inherited
+Datastream - Block Public Connectivity Methods		constraints/datastream.disablePublicConnectivity	Inherited
+Define allowed external IPs for VM instances	"This list constraint defines the set of Compute Engine VM instances that are allowed to use external IP addresses.
+By default, all VM instances are allowed to use external IP addresses.
+The allowed/denied list of VM instances must be identified by the VM instance name, in the form: projects/PROJECT_ID/zones/ZONE/instances/INSTANCE
+
+constraints/compute.vmExternalIpAccess"	constraints/compute.vmExternalIpAccess	inherited
+Define trusted image projects		constraints/compute.trustedImageProjects	Inherited
+Disable All IPv6 usage		constraints/compute.disableAllIpv6	Inherited
+Disable Audit Logging exemption		constraints/iam.disableAuditLoggingExemption	Inherited
+Disable Automatic IAM Grants for Default Service Accounts		constraints/iam.automaticIamGrantsForDefaultServiceAccounts	Inherited
+Disable BigQuery Omni for Cloud AWS		constraints/bigquery.disableBQOmniAWS	Inherited
+Disable BigQuery Omni for Cloud Azure		constraints/bigquery.disableBQOmniAzure	Inherited
+Disable Cloud Deploy service labels		constraints/clouddeploy.disableServiceLabelGeneration	Inherited
+Disable Cloud Logging for Cloud Healthcare API		constraints/gcp.disableCloudLogging	Inherited
+Disable Creation of Cloud Armor Security Policies		constraints/compute.disableGlobalCloudArmorPolicy	Inherited
+Disable Creation of global self-managed SSL Certificates		constraints/compute.disableGlobalSelfManagedSslCertificate	Inherited
+Disable Cross-Project Service Account Usage		constraints/iam.disableCrossProjectServiceAccountUsage	Inherited
+Disable Enabling Identity-Aware Proxy (IAP) on global resources		constraints/iap.requireGlobalIapWebDisabled	Inherited
+Disable Enabling Identity-Aware Proxy (IAP) on regional resources		constraints/iap.requireRegionalIapWebDisabled	Inherited
+Disable Global Load Balancing		constraints/compute.disableGlobalLoadBalancing	Inherited
+Disable Guest Attributes of Compute Engine metadata		constraints/compute.disableGuestAttributesAccess	Inherited
+Disable Hybrid Cloud IPv6 usage		constraints/compute.disableHybridCloudIpv6	Inherited
+Disable Internet Network Endpoint Groups		constraints/compute.disableInternetNetworkEndpointGroup	Inherited
+Disable Private Service Connect for Consumers		constraints/compute.disablePrivateServiceConnectCreationForConsumers	Inherited
+Disable Project Security Contacts		constraints/essentialcontacts.disableProjectSecurityContacts	Inherited
+Disable Public Marketplace		constraints/commerceorggovernance.disablePublicMarketplace	Inherited
+Disable service account creation		constraints/iam.disableServiceAccountCreation	Inherited
+Disable service account key creation		constraints/iam.disableServiceAccountKeyCreation	Inherited
+Disable Service Account Key Upload		constraints/iam.disableServiceAccountKeyUpload	Inherited
+Disable Source Code Download		constraints/appengine.disableCodeDownload	Inherited
+Disable SSH in browser		constraints/compute.disableSshInBrowser	Inherited
+Disable VM nested virtualization		constraints/compute.disableNestedVirtualization	Inherited
+Disable VM serial port access		constraints/compute.disableSerialPortAccess	Inherited
+Disable VM serial port logging to Stackdriver		constraints/compute.disableSerialPortLogging	Inherited
+Disable VPC External IPv6 usage		constraints/compute.disableVpcExternalIpv6	Inherited
+Disable VPC Internal IPv6 usage		constraints/compute.disableVpcInternalIpv6	Inherited
+Disable Workload Identity Cluster Creation		constraints/iam.disableWorkloadIdentityClusterCreation	Inherited
+Domain restricted contacts		constraints/essentialcontacts.allowedContactDomains	Inherited
+Domain restricted sharing		constraints/iam.allowedPolicyMemberDomains	Inherited
+Enforce Public Access Prevention		constraints/storage.publicAccessPrevention	Inherited
+Enforce uniform bucket-level access		constraints/storage.uniformBucketLevelAccess	Inherited
+Google Cloud Platform - Detailed Audit Logging Mode		constraints/gcp.detailedAuditLoggingMode	Inherited
+Google Cloud Platform - Resource Location Restriction		constraints/gcp.resourceLocations	Inherited
+Require Enabled Services Allow List for Cross-Organization Move		constraints/resourcemanager.allowEnabledServicesForExport	Inherited
+Require Firestore Service Agent for import/export		constraints/firestore.requireP4SAforImportExport	Inherited
+Require OS Login		constraints/compute.requireOsLogin	Inherited
+Require predefined policies for VPC flow logs		constraints/compute.requireVpcFlowLogs	Inherited
+Require VPC Connector (Cloud Functions)		constraints/cloudfunctions.requireVPCConnector	Inherited
+Restrict access on marketplace services		constraints/commerceorggovernance.marketplaceServices	Inherited
+Restrict allowed Google Cloud APIs and services		constraints/serviceuser.services	Inherited
+Restrict Authorized Networks on Cloud SQL instances		constraints/sql.restrictAuthorizedNetworks	Inherited
+Restrict Cloud NAT usage		constraints/compute.restrictCloudNATUsage	Inherited
+Restrict Dedicated Interconnect usage		constraints/compute.restrictDedicatedInterconnectUsage	Inherited
+Restrict Load Balancer Creation Based on Load Balancer Types		constraints/compute.restrictLoadBalancerCreationForTypes	Inherited
+Restrict Non-Confidential Computing		constraints/compute.restrictNonConfidentialComputing	Inherited
+Restrict Partner Interconnect usage		constraints/compute.restrictPartnerInterconnectUsage	Inherited
+Restrict Protocol Forwarding Based on type of IP Address		constraints/compute.restrictProtocolForwardingCreationForTypes	Inherited
+Restrict Public IP access on Cloud SQL instances		constraints/sql.restrictPublicIp	Inherited
+Restrict removal of Cross Project Service Account liens		constraints/iam.restrictCrossProjectServiceAccountLienRemoval	Inherited
+Restrict Resource Service Usage		constraints/gcp.restrictServiceUsage	Inherited
+Restrict Shared VPC Backend Services		constraints/compute.restrictSharedVpcBackendServices	Inherited
+Restrict Shared VPC Host Projects		constraints/compute.restrictSharedVpcHostProjects	Inherited
+Restrict shared VPC project lien removal		constraints/compute.restrictXpnProjectLienRemoval	Inherited
+Restrict Shared VPC Subnetworks		constraints/compute.restrictSharedVpcSubnetworks	Inherited
+Restrict VM IP Forwarding		constraints/compute.vmCanIpForward	Inherited
+Restrict VPC peering usage		constraints/compute.restrictVpcPeering	Inherited
+Restrict VPN Peer IPs		constraints/compute.restrictVpnPeerIPs	Inherited
+Restrict which KMS CryptoKey types may be created.		constraints/cloudkms.allowedProtectionLevels	Inherited
+Restrict which projects may supply KMS CryptoKeys for CMEK		constraints/gcp.restrictCmekCryptoKeyProjects	Inherited
+Restrict which services may create resources without CMEK		constraints/gcp.restrictNonCmekServices	Inherited
+Retention policy duration in seconds		constraints/storage.retentionPolicySeconds	Inherited
+Sets the internal DNS setting for new projects to Zonal DNS Only		constraints/compute.setNewProjectDefaultToZonalDNSOnly	Inherited
+Shared Reservations Owner Projects		constraints/compute.sharedReservationsOwnerProjects	Inherited
+Shielded VMs		constraints/compute.requireShieldedVm	Inherited
+Skip default network creation		constraints/compute.skipDefaultNetworkCreation	Inherited
